@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mitesh.paintapp.PaintView
+        android:id="@+id/drawingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red" />
+
+        <Button
+            android:id="@+id/btnErase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erase" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear" />
+    </LinearLayout>
+</RelativeLayout>
